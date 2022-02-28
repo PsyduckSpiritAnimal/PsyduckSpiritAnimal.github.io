@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Shares</th>
+                            <th>Price</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for entry in history %}
+                        <tr>
+                            <th> {{entry.symbol}} </th>
+                            <th> {{entry.shares}} </th>
+                            <th> {{entry.price}} </th>
+                            <th> {{entry.transacted}} </th>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+{% endblock %}

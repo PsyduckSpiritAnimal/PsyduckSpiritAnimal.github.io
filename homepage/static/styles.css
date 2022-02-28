@@ -1,0 +1,139 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    margin: 0 auto;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    border: 1px solid;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(179, 208, 255, 0.3)
+}
+
+.form-group {
+    font-size: x-large;
+
+}
+
+p {
+    opacity:1;
+    transition:opacity 100ms;
+}
+p.waa {
+    opacity:0;
+}
+
+body {
+    background-color: #1e1e1f;
+}
+
+h1 {
+    color: #ffffff;
+}
+h3 {
+    color: #cccccc;
+}
+
+.container1 {
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    background-color: #1a1a1a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    padding-bottom: 100px;
+}
+.box {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+}
+.sideimg {
+    
+    text-align: center;  
+    padding: 15px;  
+    border: 3px solid white;
+}
+img {
+    width: 5000px;
+    padding: 10px;
+    margin: auto;
+}
+.paragraph {
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    text-indent: 100px;
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
